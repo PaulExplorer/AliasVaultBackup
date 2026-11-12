@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.venv/
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+
+# Reference checkout used while developing this independent implementation
+/aliasvault/
+
+# Local secrets and backups
+secrets.json
+config.toml
+backups/
+*.avex
+*.avbak
+!tests/fixtures/*.avex
+
+# Editors
+.idea/
+.vscode/
+.DS_Store
+
+# Local logs
+*.log
